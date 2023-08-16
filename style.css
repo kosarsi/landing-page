@@ -176,3 +176,49 @@ button {
     font-size: 24px;
     font-weight: 700;
 }
+
+.signup {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.signup-two {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.signup-two:hover {
+    background-color: white;
+    color: #3882F6;
+    cursor: pointer;
+}
+
+.call-to-action {
+    color: white;
+    font-size: 24px;
+}
+
+.action-text {
+    color: white;
+    font-weight: 300;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+}
