@@ -222,3 +222,13 @@ button {
     display: flex;
     flex-direction: column;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-weight: 300;
+    padding: 30px;
+}
