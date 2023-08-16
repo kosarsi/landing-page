@@ -28,19 +28,123 @@ a {
 .top {
     display: flex;
     justify-content: space-around;
-    padding: 16px;
+    align-items: center;
+    padding: 12px;
 }
 
 li {
     padding: 0 8px;
     font-weight: 300;
+    margin: 0px 8px;
 }
 
 .logo {
     font-weight: 500;
+    margin-top: 8px;
 }
 
 .intro {
     background-color: #1F2937;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+#bigtext {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+}
+
+.main-image {
+    width: 500px;
+    height: 250px;
+    margin: 32px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+.signup-one {
+    background-color: #3882F6;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.mainhero {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    margin: 40px 40px 40px 20px;
+    gap: 16px;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.signup-one:hover {
+    background-color: white;
+    color: #3882F6;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 100px 20px;
+}
+
+.info-text {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 30px;
+}
+
+.info-images {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.info-image {
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 4px;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin: 10px;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: grey;
+    width: 150px;
 }
